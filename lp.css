@@ -1,0 +1,191 @@
+*  {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 60px;
+}
+
+header {
+    margin-top: 16px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+header a, p {
+    color: black;
+}
+
+hr {
+    width: 95%;
+}
+
+.navbar {
+    width: 250px;
+}
+header img{
+    height: 32px;
+    width: 32px;
+}
+
+.hamburguer {
+    display: none;
+}
+
+.navlink {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+main {
+    margin-top: 32px;
+    width: 100%;
+    position: relative;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 84px;
+}
+
+.shoe {
+    height: 330px;
+    width: 276px;
+    border-radius: 8%;
+}
+
+.rectangle2 {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    color: #fff;
+    width: 256px;
+    height: 73px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    margin-left: 12px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    font-weight: 400;
+}
+
+@media screen and (max-width:429px) {
+    body {
+        margin: 0 30px;
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+    }
+
+    header {
+        width: 90%;
+    }
+
+    header a, p {
+        color: black;
+    }
+    hr {
+        width: 90%;
+    }
+    main {
+        margin-top: 64px;
+        height: 350px;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    header img{
+        height: 48px;
+        width: 48px;
+    }
+
+    .hamburguer {
+        display: block;
+
+    }
+    .grid {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+    }
+    .shoe {
+        height: 320px;
+        width: 270px;
+        left: 32px;
+    }
+
+    .rectangle2 {
+        position: relative;
+        z-index: 1;
+        background-color: #fff;
+        color: #fff;
+        width: 255px;
+        height: 70px;
+        border-radius: 8%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -80px;
+        margin-left: 9px;
+    }
+    
+    h1 {
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+    }
+    
+    h3 {
+        font-size: 16px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    .price {
+        display: flex;
+        align-items: center;
+    }
+    
+    h2 {
+        font-size: 32px;
+        color: black;
+        font-weight: 400;
+    }
+}
